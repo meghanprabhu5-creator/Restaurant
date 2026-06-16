@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home - Spice Garden Restaurant</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-danger sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">🍽️ Spice Garden</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="profile.html">Profile</a></li>
+          <li class="nav-item"><a class="nav-link" href="login.html">Logout</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero-section">
+    <div class="container">
+      <h1>Welcome to Spice Garden 🌶️</h1>
+      <p class="mt-3">Delicious food, served with love. Explore our best dishes!</p>
+      <a href="#menu" class="btn btn-danger btn-lg mt-3 px-4 rounded-pill">View Menu</a>
+    </div>
+  </section>
+
+  <!-- ===== MENU SECTION ===== -->
+  <section class="py-5" id="menu">
+    <div class="container text-center">
+      <h2 class="section-title">Our Popular Dishes</h2>
+      <p class="section-subtitle">Fresh ingredients, bold flavors</p>
+
+      <div class="row g-4">
+
+        <!-- Dish 1 -->
+        <div class="col-md-4">
+          <div class="card menu-card">
+            <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400" alt="Pizza"/>
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Margherita Pizza</h5>
+              <p class="card-text text-muted">Classic pizza with fresh tomato and mozzarella.</p>
+              <span class="badge bg-danger fs-6">₹ 350</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dish 2 -->
+        <div class="col-md-4">
+          <div class="card menu-card">
+            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400" alt="Burger"/>
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Cheese Burger</h5>
+              <p class="card-text text-muted">Juicy beef patty with melted cheese and veggies.</p>
+              <span class="badge bg-danger fs-6">₹ 250</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dish 3 -->
+        <div class="col-md-4">
+          <div class="card menu-card">
+            <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=400" alt="Pasta"/>
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Creamy Pasta</h5>
+              <p class="card-text text-muted">Pasta in rich creamy white sauce with herbs.</p>
+              <span class="badge bg-danger fs-6">₹ 300</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dish 4 -->
+        <div class="col-md-4">
+          <div class="card menu-card">
+            <img src="https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=400" alt="Biryani"/>
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Chicken Biryani</h5>
+              <p class="card-text text-muted">Aromatic basmati rice cooked with spicy chicken.</p>
+              <span class="badge bg-danger fs-6">₹ 280</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dish 5 -->
+        <div class="col-md-4">
+          <div class="card menu-card">
+            <img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=400" alt="Pancakes"/>
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Pancakes</h5>
+              <p class="card-text text-muted">Fluffy pancakes served with maple syrup and fruits.</p>
+              <span class="badge bg-danger fs-6">₹ 180</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dish 6 -->
+        <div class="col-md-4">
+          <div class="card menu-card">
+            <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?w=400" alt="Dessert"/>
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Chocolate Cake</h5>
+              <p class="card-text text-muted">Rich chocolate cake with cream topping.</p>
+              <span class="badge bg-danger fs-6">₹ 150</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="py-4 mt-4">
+    <div class="container text-center">
+      <p class="mb-1">🍽️ <strong class="text-white">Spice Garden Restaurant</strong></p>
+      <p class="small">© 2024 All Rights Reserved | Made with ❤️</p>
+      <div class="mt-2">
+        <a href="about.html" class="me-3">About</a>
+        <a href="contact.html" class="me-3">Contact</a>
+        <a href="profile.html">Profile</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

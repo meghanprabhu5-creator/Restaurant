@@ -1,0 +1,130 @@
+/* ===== GLOBAL STYLES ===== */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* ===== LOGIN PAGE ===== */
+.login-body {
+  background: linear-gradient(135deg, #ff6b6b, #ee0979);
+}
+
+.login-card {
+  background: white;
+  width: 100%;
+  max-width: 420px;
+  border-radius: 16px;
+}
+
+/* ===== NAVBAR ===== */
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+/* ===== HOME PAGE - HERO SECTION ===== */
+.hero-section {
+  background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+              url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1200') center/cover no-repeat;
+  color: white;
+  padding: 120px 0;
+  text-align: center;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+}
+
+/* ===== MENU CARDS ===== */
+.menu-card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.menu-card:hover {
+  transform: translateY(-5px);
+}
+
+.menu-card img {
+  border-radius: 12px 12px 0 0;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* ===== ABOUT PAGE ===== */
+.about-img {
+  border-radius: 16px;
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+/* ===== CONTACT PAGE ===== */
+.contact-card {
+  border-radius: 16px;
+  border: none;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+/* ===== PROFILE PAGE ===== */
+.profile-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #dc3545;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  color: white;
+  margin: 0 auto 15px;
+}
+
+.profile-card {
+  border-radius: 16px;
+  border: none;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+/* ===== FOOTER ===== */
+footer {
+  background-color: #222;
+  color: #ccc;
+}
+
+footer a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: white;
+}
+
+/* ===== SECTION TITLE ===== */
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #dc3545;
+  margin-bottom: 10px;
+}
+
+.section-subtitle {
+  color: #6c757d;
+  margin-bottom: 40px;
+}
+
+/* ===== PAGE BANNER ===== */
+.page-banner {
+  background: linear-gradient(135deg, #dc3545, #ee0979);
+  color: white;
+  padding: 60px 0;
+  text-align: center;
+}
